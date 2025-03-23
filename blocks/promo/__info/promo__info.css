@@ -1,0 +1,26 @@
+.promo__info {
+  max-width: 559px;
+  margin: 42px 0;
+}
+
+@media screen and (max-width: 1240px) {
+  .promo__info {
+    width: calc(100% - 520px - 86px);
+  }
+}
+@media screen and (max-width: 1080px) {
+  .promo__info {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .promo__info {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+}
+

@@ -1,0 +1,4 @@
+.course__time {
+  display: flex;
+  gap: 9px;
+}

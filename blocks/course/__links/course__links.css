@@ -1,0 +1,16 @@
+.course__links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 700px) {
+  .course__links {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 25px;
+  }
+}

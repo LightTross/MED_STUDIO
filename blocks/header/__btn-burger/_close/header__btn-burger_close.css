@@ -1,0 +1,8 @@
+.header__btn-burger_close {
+  width: 28px;
+  margin: 0 4px;
+  background-image: url(../../../../images/btn-burger-close.svg);
+}
+.header__btn-burger_close:hover {
+  transform: rotate(90deg);
+}

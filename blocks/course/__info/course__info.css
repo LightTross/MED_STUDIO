@@ -1,0 +1,14 @@
+.course__info {
+  width: 100%;
+  margin: 34px 0 0 0;
+  border-radius: 20px;
+  background-image: url(../.././../images/info-advert.jpg);
+  background-size: cover;
+  padding: 40px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 585px) {
+  .course__info {
+    padding: 20px;
+  }
+}

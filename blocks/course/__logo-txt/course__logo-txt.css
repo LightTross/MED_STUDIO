@@ -1,0 +1,15 @@
+.course__logo-txt {
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.33;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (max-width: 819px) {
+  .course__logo-txt {
+    font-size: 30px;
+  }
+}

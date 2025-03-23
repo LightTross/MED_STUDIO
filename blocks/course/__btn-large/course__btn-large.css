@@ -1,0 +1,21 @@
+.course__btn-large {
+  width: 189px;
+  height: 56px;
+  padding: 0;
+  border-radius: 500px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: opacity .3s linear;
+}
+@media screen and (max-width: 505px) {
+  .course__btn-large {
+    width: 139px;
+    height: 36px;
+  }
+}
+.course__btn-large:hover {
+  opacity: .4;
+}

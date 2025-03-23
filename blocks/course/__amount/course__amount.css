@@ -1,0 +1,14 @@
+.course__amount {
+  margin: 24px 0 0;
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1.16;
+  color: #252D33;
+  font-weight: 700;
+}
+@media screen and (max-width: 900px) {
+  .course__amount {
+    margin: 24px auto 0;
+  }
+}

@@ -1,0 +1,19 @@
+.course__btn-small {
+  width: 129px;
+  height: 56px;
+  padding: 0;
+  border-radius: 500px;
+  background-color: #252D33;
+  cursor: pointer;
+  border: none;
+  transition: opacity .3s linear;
+}
+@media screen and (max-width: 505px) {
+  .course__btn-small {
+    width: 89px;
+    height: 36px;
+  }
+}
+.course__btn-small:hover {
+  opacity: .6;
+}

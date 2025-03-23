@@ -1,0 +1,42 @@
+.course__btn-payment {
+  margin: 24px 0 0;
+  padding: 0;
+  width: 328px;
+  height: 56px;
+  background-color: #40B526;
+  color: #fff;
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: 700;
+  border-radius: 500px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  transition: opacity .3s linear;
+}
+.course__btn-payment:hover {
+  opacity: .6;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1150px) {
+  .course__btn-payment {
+    width: 267px;
+  }
+}
+@media screen and (min-width: 423px) and (max-width: 900px) {
+  .course__btn-payment {
+    margin: 24px auto 0;
+  }
+}
+@media screen and (max-width: 422px) {
+  .course__btn-payment {
+    width: 247px;
+    margin: 24px auto 0;
+    font-size: 16px;
+  }
+}

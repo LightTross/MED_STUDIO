@@ -1,0 +1,11 @@
+.sponsors {
+  width: calc(100% - 32px * 2);
+  max-width: 1208px;
+  margin: 81px auto 0;
+}
+@media screen and (max-width: 700px) {
+  .sponsors {
+    margin-top: 34px;
+    width: calc(100% - 15px * 2);
+  }
+}

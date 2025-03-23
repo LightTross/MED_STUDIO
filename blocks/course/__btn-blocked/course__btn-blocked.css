@@ -1,0 +1,16 @@
+.course__btn-blocked {
+  width: 23.27px;
+  height: 28.93px;
+  background: url(../../../images/blocked.svg) no-repeat 50% 50%;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity .3s linear;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  padding: 16px;
+}
+.course__btn-blocked:hover {
+  opacity: .8;
+}

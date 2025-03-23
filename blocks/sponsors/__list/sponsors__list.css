@@ -1,0 +1,13 @@
+.sponsors__list {
+  margin: 33px 0 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 40px;
+  padding: 0;
+}
+@media screen and (max-width: 700px) {
+  .sponsors__list {
+    grid-gap: 15px;
+  }
+}

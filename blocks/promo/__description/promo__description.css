@@ -1,0 +1,20 @@
+.promo__description {
+  margin: 21px 0 0;
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #94A9B7;
+  font-weight: 400;
+}
+@media screen and (max-width: 1080px) {
+  .promo__description {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .promo__description {
+    text-align: center;
+    font-size: 16px;
+  }
+}

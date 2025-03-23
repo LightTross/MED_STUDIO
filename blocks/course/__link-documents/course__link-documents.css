@@ -1,0 +1,14 @@
+.course__link-documents {
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #40B526;
+  font-weight: 400;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.course__link-documents:hover {
+  opacity: .6;
+}

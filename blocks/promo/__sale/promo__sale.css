@@ -1,0 +1,29 @@
+.promo__sale {
+  width: 167px;
+  height: 167px;
+  position: absolute;
+  top: -86px;
+  right: -66px;
+}
+@media screen and (max-width: 1080px) {
+  .promo__sale {
+    top: -46px;
+    right: -36px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .promo__sale {
+    width: 120px;
+    height: 120px;
+    top: -46px;
+    right: -36px;
+  }
+}
+@media screen and (max-width: 505px) {
+  .promo__sale {
+    width: 105px;
+    height: 105px;
+    top: -46px;
+    right: -36px;
+  }
+}

@@ -1,0 +1,10 @@
+.course__logo-img {
+  width: 36px;
+  height: 38px;
+}
+@media screen and (max-width: 819px) {
+  .course__logo-img {
+    width: 30px;
+    height: 32px;
+  }
+}

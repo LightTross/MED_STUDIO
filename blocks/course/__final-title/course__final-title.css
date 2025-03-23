@@ -1,0 +1,11 @@
+.course__final-title {
+  margin: 8px 0 0;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  .course__final-title {
+    justify-content: center;
+  }
+}

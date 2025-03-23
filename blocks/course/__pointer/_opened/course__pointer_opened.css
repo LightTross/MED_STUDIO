@@ -1,0 +1,3 @@
+.course__pointer_opened {
+  transform: rotate(180deg);
+}

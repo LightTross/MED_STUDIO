@@ -1,0 +1,19 @@
+.promo__video-container {
+  width: 470px;
+  height: 286px;
+  margin: 45px 0;
+  position: relative;
+}
+@media screen and (max-width: 1080px) {
+  .promo__video-container {
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+  }
+}
+@media screen and (max-width: 700px) {
+  .promo__video-container {
+    margin: 45px 0 35px;
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+  }
+}

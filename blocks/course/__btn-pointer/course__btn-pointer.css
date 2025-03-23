@@ -1,0 +1,11 @@
+.course__btn-pointer {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity .3s linear;
+  opacity: 1;
+}
+.course__btn-pointer:hover {
+  opacity: .8;
+}

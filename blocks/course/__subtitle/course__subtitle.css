@@ -1,0 +1,37 @@
+.course__subtitle {
+  margin: 0;
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1.33;
+  font-weight: 700;
+  color: #252D33;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  text-wrap: wrap;
+  gap: 12px;
+}
+.course__subtitle:hover {
+  color: #40B526;
+}
+@media screen and (min-width: 1038px) and (max-width: 1181px) {
+  .course__subtitle {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 1037px) {
+  .course__subtitle {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 506px) and (max-width: 819px) {
+  .course__subtitle {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 505px) {
+  .course__subtitle {
+    font-size: 22px;
+  }
+}

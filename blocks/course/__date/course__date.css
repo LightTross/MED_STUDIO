@@ -1,0 +1,11 @@
+.course__date {
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.66;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 0;
+}

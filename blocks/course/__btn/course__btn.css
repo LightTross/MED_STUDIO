@@ -1,0 +1,12 @@
+.course__btn {
+  width: 96px;
+  height: 24px;
+  border-radius: 500px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity .3s linear;;
+}
+.course__btn:hover {
+  opacity: .4;
+}

@@ -1,0 +1,26 @@
+.course__txt-link {
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #252D33;
+  font-weight: 700;
+  margin: 0;
+  text-decoration: none;
+  transition: opacity .3s linear;
+  position: relative;
+}
+.course__txt-link:hover {
+  opacity: .8;
+  color: #40B526;
+}
+
+.course__txt-link:hover  .course__tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+@media screen and (max-width: 819px) {
+  .course__txt-link {
+    font-size: 16px;
+  }
+}

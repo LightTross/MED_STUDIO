@@ -1,0 +1,11 @@
+.speakers {
+  width: calc(100% - 32px * 2);
+  max-width: 1208px;
+  margin: 82px auto 0;
+}
+@media screen and (max-width: 700px) {
+  .speakers {
+    margin-top: 34px;
+    width: calc(100% - 15px * 2);
+  }
+}

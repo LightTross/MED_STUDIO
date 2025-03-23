@@ -1,0 +1,16 @@
+.speakers__card {
+  border-radius: 20px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 184px 1fr;
+  padding: 20px;
+  column-gap: 20px;
+}
+@media screen and (max-width: 527px) {
+  .speakers__card {
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+}

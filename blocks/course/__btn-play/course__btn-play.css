@@ -1,0 +1,15 @@
+.course__btn-play {
+  width: 32px;
+  height: 32px;
+  background: url(../../../images/play.svg) no-repeat 50% 50%;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity .3s linear;
+  position: absolute;
+  top: 20px;
+  right: 44px;
+}
+.course__btn-play:hover {
+  opacity: .8;
+}

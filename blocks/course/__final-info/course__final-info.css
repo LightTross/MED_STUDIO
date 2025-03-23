@@ -1,0 +1,16 @@
+.course__final-info {
+  margin: 0;
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.66;
+  color: #94A9B7;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+@media screen and (max-width: 575px) {
+  .course__final-info {
+    text-align: center;
+  }
+}

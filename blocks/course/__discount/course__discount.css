@@ -1,0 +1,17 @@
+.course__discount {
+  margin: 16px 0 0;
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #40B526;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  transition: opacity .3s linear;
+}
+.course__discount:hover {
+  opacity: .6;
+}

@@ -1,0 +1,11 @@
+.course__video-container {
+  transition: opacity .3s linear;
+}
+
+.course__video-container:hover .course__tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.course__video-container:hover {
+  opacity: .5;
+}

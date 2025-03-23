@@ -1,0 +1,9 @@
+.speakers__info {
+  text-align: left;
+}
+@media screen and (max-width: 527px) {
+  .speakers__info {
+    margin-top: 15px;
+    text-align: center;
+  }
+}

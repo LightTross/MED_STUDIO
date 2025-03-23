@@ -1,0 +1,9 @@
+.partners__name {
+  border-radius: 20px;
+  background-color: #fff;
+  height: 98px;
+  transition: opacity .3s linear;
+}
+.partners__name:hover {
+  opacity: .6;
+}

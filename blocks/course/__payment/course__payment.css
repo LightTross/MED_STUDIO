@@ -1,0 +1,30 @@
+.course__payment {
+  max-width: 376px;
+  max-height: 388px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 36px;
+  margin: 48px 0 0;
+}
+@media screen and (min-width: 901px) and (max-width: 1150px) {
+  .course__payment {
+    max-width: 306px;
+    max-height: 442px;
+  }
+}
+@media screen and (min-width: 423px) and (max-width: 900px) {
+  .course__payment {
+    max-width: 819px;
+  }
+}
+@media screen and (max-width: 422px) {
+  .course__payment {
+    max-height: 442px;
+    padding: 12px;
+  }
+}

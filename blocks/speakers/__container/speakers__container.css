@@ -1,0 +1,12 @@
+.speakers__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-gap: 40px;
+  margin: 31px 0 0;
+}
+@media screen and (max-width: 527px) {
+  .speakers__container {
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-gap: 15px;
+  }
+}

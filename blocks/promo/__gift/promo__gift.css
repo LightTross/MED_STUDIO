@@ -1,0 +1,11 @@
+.promo__gift {
+  margin: 0;
+  font-family: 'PT Root UI', Arial, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 0.2em;
+  color: #94A9B7;
+  text-transform: uppercase;
+  font-weight: 700;
+}
