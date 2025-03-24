@@ -103,6 +103,7 @@
 @import url(../blocks/sponsors/__name/sponsors__name.css);
 @import url(../blocks/sponsors/__name/_violet/sponsors__name_violet.css);
 @import url(../blocks/sponsors/__link/sponsors__link.css);
+@import url(../blocks/sponsors/__logo/sponsors__logo.css);
 @import url(../blocks/sponsors/__name/_blue/sponsors__name_blue.css);
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__title/partners__title.css);

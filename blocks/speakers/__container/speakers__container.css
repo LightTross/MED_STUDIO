@@ -4,8 +4,15 @@
   grid-gap: 40px;
   margin: 31px 0 0;
 }
+@media screen and (max-width: 700px) {
+  .speakers__container {
+    margin-top: 15px;
+    grid-gap: 15px;
+  }
+}
 @media screen and (max-width: 527px) {
   .speakers__container {
+    margin-top: 15px;
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     grid-gap: 15px;
   }

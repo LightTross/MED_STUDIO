@@ -7,3 +7,13 @@
   font-weight: 700;
   margin: 0;
 }
+@media screen and (max-width: 1080px) {
+  .sponsors__title {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sponsors__title {
+    font-size: 28px;
+  }
+}

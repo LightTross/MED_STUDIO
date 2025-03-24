@@ -6,3 +6,8 @@
 .sponsors__name:hover {
   opacity: .6;
 }
+@media screen and (max-width: 700px) {
+  .sponsors__name {
+    height: 98px;
+  }
+}
